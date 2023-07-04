@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "reinforcetrade"
+version = "0.1.0"
+description = ""
+authors = ["Espinoza, William"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+stable-baselines = "^2.10.2"
+polygon-api-client = "^1.10.1"
+pandas = "^2.0.3"
+gym = "^0.26.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
