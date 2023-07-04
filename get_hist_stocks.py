@@ -2,8 +2,10 @@ import pandas as pd
 
 from polygon import RESTClient
 
+from reinforcetrade.project_secrets import polygon_rest_key
+
 # Setup API
-client = RESTClient("yDF8gsrzRB8zJzzAcpBxW1mEcuivfy48")
+client = RESTClient(polygon_rest_key)
 
 # Setup date points
 limit = 10000
